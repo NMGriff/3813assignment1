@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
+//import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-root',
@@ -10,8 +10,7 @@ import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'assignment1';
+  title = 'assignment2';
 
-  constructor(private modalService: NgbModal) {
-  }
+  //constructor(private modalService: NgbModal) {}
 }
