@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core'
 import { BrowserModule } from '@angular/platform-browser'
 //import { LoginComponent } from './login/login.component';
 import { AppComponent } from './app.component';
-import { LoginComponent } from './login/login.component';
+//import { LoginComponent } from './login/login.component';
 import { AppRoutingModule } from './app-routing/app-routing.module';
 
 
@@ -14,7 +14,7 @@ import { AppRoutingModule } from './app-routing/app-routing.module';
       //login, 
       //Parsecred,
       AppComponent,
-      LoginComponent
+      //LoginComponent
     ],
     imports: [
       //FormsModule,

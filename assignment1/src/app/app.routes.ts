@@ -1,12 +1,10 @@
 import { Routes } from '@angular/router';
-import { AppComponent } from './app.component';
-//import { HomeComponent } from './home/appcomponent';
-//import { AboutComponent } from './about/about.component';
-//import { ContactComponent } from './contact/contact.component'
-//leftover route imports
+import { ChatComponent } from './chat/chat.component';
+import { IndexComponent } from './index/index.component';
+
 
 export const routes: Routes = [
-    { path: 'app', component: AppComponent },
-    //{ path: 'about', component: AboutComponent },
-    //{ path: 'contact', component: ContactComponent }
+    { path: 'chat', component: ChatComponent,title:'Chat' },
+    { path: '', component: IndexComponent,title:'Index' },
+   
 ];

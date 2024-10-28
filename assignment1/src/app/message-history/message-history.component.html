@@ -1,0 +1,6 @@
+<!-- Loop through messages, increment and store-->
+<div>
+    @for (message of messages; track message.id) {
+        <app-message [message]="message"></app-message>
+    }
+</div>

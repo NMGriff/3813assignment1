@@ -1,0 +1,5 @@
+<!-- message input component form-->
+<form [formGroup]="messageInputForm" (submit)="submitMessageInput()">
+    <input id="message-input" type="text" placeholder="Please enter a message" formControlName="messageInput"/>
+    <button type="submit">Send</button>
+</form>
